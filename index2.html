@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malgorzata Chmiel | Research Scientist</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Montserrat', sans-serif; background-color: #ffffff; color: #333; line-height: 1.6; }
+
+        /* HERO SECTION */
+        .hero {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 80px 20px;
+            /* Background: 0.6 opacity makes the mountain much more visible */
+            background: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), 
+                        url('Background2.jpg') no-repeat center center;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; /* Optional: adds a parallax effect */
+        }
+
+        /* NAVIGATION */
+        .top-nav { position: absolute; top: 50px; width: 100%; }
+        .top-nav a { 
+            color: #222; 
+            text-decoration: none; 
+            margin: 0 20px; 
+            font-size: 0.75rem; 
+            text-transform: uppercase; 
+            letter-spacing: 2px; 
+            font-weight: 500;
+        }
+
+        /* PROFILE PIC */
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #fff;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            margin-top: 60px;
+            margin-bottom: 25px;
+        }
+
+        h1 { font-size: 2.6rem; font-weight: 200; letter-spacing: 6px; text-transform: uppercase; color: #000; margin-bottom: 10px; }
+
+        .code-bio a {
+        color: #444;
+        text-decoration: none;
+        font-weight: 500;
+        border-bottom: 1px dotted #ccc;
+        transition: all 0.3s ease;
+    }
+
+.code-bio a:hover {
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+
+        /* INTRO PARAGRAPH ON COVER */
+        .cover-intro {
+            max-width: 650px;
+            font-size: 1.05rem;
+            font-weight: 400;
+            color: #222;
+            margin-bottom: 30px;
+            line-height: 1.8;
+        }
+
+        /* LOGOS */
+        .social-icons { margin-bottom: 40px; display: flex; justify-content: center; gap: 35px; }
+        .social-icons a { color: #222; font-size: 1.8rem; text-decoration: none; transition: 0.3s; }
+        .social-icons a:hover { color: #000; transform: scale(1.1); }
+
+        .address { font-size: 0.85rem; color: #333; letter-spacing: 0.5px; font-weight: 400; }
+
+        /* CONTENT SECTIONS BELOW */
+        .content-section { padding: 100px 20px; background: #fff; }
+        .container { max-width: 850px; margin: 0 auto; }
+        
+        h2 { 
+            font-weight: 300; 
+            text-transform: uppercase; 
+            letter-spacing: 3px; 
+            margin-bottom: 30px; 
+            color: #000;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 15px;
+        }
+
+        .pub-list { list-style: none; }
+        .pub-list li { 
+            margin-bottom: 25px; 
+            padding-bottom: 15px; 
+            border-bottom: 1px solid #f9f9f9; 
+            font-size: 0.95rem;
+        }
+        
+        .unrest-box {
+            background: #fcfcfc;
+            padding: 30px;
+            border-left: 3px solid #333;
+            margin-top: 20px;
+        }
+
+        /* ALIGN HEADER AND LOGO */
+/* CONTAINER FOR THE HEADER CONTENT */
+.section-header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;            
+    border-bottom: 1px solid #eee;  
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+}
+
+/* CONTAINER FOR THE TWO LOGOS */
+.header-logos {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between the project logo and ERC logo */
+}
+
+.header-logo {
+    height: 45px; /* Adjust height so they look elegant next to the h2 */
+    width: auto;
+    display: block;
+}
+
+/* MOBILE VIEW */
+@media (max-width: 600px) {
+    .section-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    .header-logos {
+        width: 100%;
+        justify-content: flex-start;
+    }
+}
+
+    </style>
+</head>
+<body>
+
+    <section class="hero">
+        <nav class="top-nav">
+            <a href="#unrest">ERC St-G UNREST</a>
+            <a href="#publications">Publications</a>
+        </nav>
+
+        <img src="Me1.jpeg" alt="Malgorzata Chmiel" class="profile-pic">
+
+        <h1>Małgorzata Chmiel</h1>
+
+    <div class="code-bio">
+    Research Scientist (Chargée de Recherche)<br>
+     @<a href="https://cepam.cnrs.fr/" target="_blank">CNRS</a>,
+     <a href="https://geoazur.oca.eu/fr/" target="_blank">Geoazur</a>, 
+     <a href="https://geoazur.oca.eu/fr/equipe-sar" target="_blank">SAR</a> team.
+    </div>
+
+        <div class="cover-intro">
+            I am a seismologist focused on ambient noise imaging and environmental monitoring. 
+            My research integrates geophysical observations to better understand 
+            crustal dynamics and seismogenic zones.
+        </div>
+
+        <div class="social-icons">
+            <a href="#" target="_blank"><i class="fa-solid fa-graduation-cap"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-orcid"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-researchgate"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+
+        <div class="address">
+            Geoazur, 250 rue Albert Einstein, 06500 Valbonne, France<br>
+            malgorzata.chmiel [at] geoazur.unice.fr
+        </div>
+    </section>
+
+<section id="unrest" class="content-section">
+    <div class="container">
+        
+        <div class="section-header">
+            <h2>ERC St-G UNREST</h2>
+            
+            <div class="header-logos">
+                <img src="unrest-logo.png" alt="UNREST Project Logo" class="header-logo">
+                <img src="erc-logo.png" alt="ERC Logo" class="header-logo">
+            </div>
+        </div>
+
+        <div class="unrest-box">
+            <p><strong>Understanding the Seismogenic zone of the Hellenic Subduction.</strong></p>
+            <br>
+            <p>The UNREST project investigates the mechanical behavior of the plate interface in the Hellenic subduction zone...</p>
+        </div>
+    </div>
+</section>
+
+    <section id="publications" class="content-section" style="background-color: #fafafa;">
+        <div class="container">
+            <h2>Selected Publications</h2>
+            <ul class="pub-list">
+                <li><strong>2024</strong> | Tracking environmental changes with ambient noise, <em>Journal Name</em>.</li>
+                <li><strong>2023</strong> | High-resolution imaging of the SAR team study site, <em>Nature Geoscience</em>.</li>
+                <li><strong>2022</strong> | New methods in seismogenic zone monitoring, <em>GJI</em>.</li>
+            </ul>
+        </div>
+    </section>
+
+</body>
+</html>
